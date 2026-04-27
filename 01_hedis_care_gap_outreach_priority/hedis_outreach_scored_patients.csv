@@ -1,0 +1,401 @@
+age,gender,has_diabetes,clinic_location,language,has_upcoming_appointment,days_until_due_date,prior_er_visits,last_cancelled_appointment,currently_admitted,diabetes_18_75,measure_type,a1c_value,a1c_category,systolic_bp,diastolic_bp,bmi,egfr_available,microalbumin_available,eye_exam_completed,care_gap,actual_care_gap_unresolved,predicted_probability,outreach_priority,recommended_action
+30,Female,0,Outpatient Medical,English,1,18,0,1,0,False,CBP_Blood_Pressure,,,171.0,86.0,28.8,,,,1,0,0.6623295760957907,Medium,Send reminder and monitor appointment status
+43,Female,0,Outpatient ID,Spanish,0,93,2,0,0,False,CBP_Blood_Pressure,,,122.0,74.0,33.6,,,,0,0,0.0038214803850668356,Low,Low priority; routine follow-up
+71,Female,0,Outpatient Medical,English,0,104,1,1,0,False,CBP_Blood_Pressure,,,114.0,69.0,32.6,,,,0,0,0.002059667497649428,Low,Low priority; routine follow-up
+23,Male,0,1419 Myrtle Medicine,English,1,14,0,1,0,False,PPC_Postpartum_Care,,,,,33.3,,,,0,0,0.0007420896651670741,Low,Low priority; routine follow-up
+26,Female,1,Outpatient ID,Spanish,1,-18,2,0,0,True,EED_Eye_Exam,,,,,35.8,,,0.0,1,1,0.8779361168567125,High,Verify care gap can be addressed during upcoming visit
+20,Male,0,Outpatient Ophthalmology,English,1,83,1,1,1,False,PPC_Postpartum_Care,,,,,28.3,,,,0,0,0.0008343560056503757,Low,Low priority; routine follow-up
+31,Male,0,Outpatient ID,English,1,-22,2,1,0,False,PPC_Postpartum_Care,,,,,19.2,,,,0,0,0.001998360757309908,Low,Low priority; routine follow-up
+68,Male,0,Outpatient Ophthalmology,Spanish,0,96,2,0,0,False,CBP_Blood_Pressure,,,109.0,99.0,29.3,,,,1,0,0.8542384977368385,High,Call patient to schedule appointment
+68,Female,0,1419 Myrtle Medicine,Spanish,0,7,1,0,0,False,PPC_Postpartum_Care,,,,,25.2,,,,0,0,0.005372538402511964,Low,Low priority; routine follow-up
+50,Female,1,Outpatient Pediatrics,Spanish,0,39,0,0,0,True,GSD_A1c,8.1,Moderate Control (8.0-9.0),,,25.1,,,,0,0,0.003343044089785747,Low,Low priority; routine follow-up
+18,Male,0,Outpatient Medical,English,0,96,0,0,0,False,PPC_Postpartum_Care,,,,,18.0,,,,0,0,0.0006600741642156198,Low,Low priority; routine follow-up
+25,Female,1,OB Clinic,Spanish,0,42,5,0,0,True,GSD_A1c,10.3,Poor Control (>9.0),,,31.1,,,,1,1,0.926347939833514,High,Call patient to schedule appointment
+56,Female,1,OB Clinic,English,0,10,1,0,0,True,TRC_Medication_Reconciliation,,,,,20.7,,,,0,0,0.0021869069098979415,Low,Low priority; routine follow-up
+67,Female,0,OB Clinic,English,0,73,0,1,0,False,CBP_Blood_Pressure,,,153.0,100.0,23.0,,,,1,1,0.8883101197178637,High,Call patient to schedule appointment
+45,Female,1,OB Clinic,English,0,-1,2,0,0,True,CBP_Blood_Pressure,,,126.0,80.0,25.2,,,,0,0,0.006781462305591858,Low,Low priority; routine follow-up
+72,Female,0,1419 Myrtle Medicine,English,1,-2,3,0,0,False,CBP_Blood_Pressure,,,116.0,94.0,34.3,,,,1,0,0.6830115467354987,Medium,Send reminder and monitor appointment status
+24,Male,0,Outpatient Ophthalmology,English,0,12,1,0,0,False,CBP_Blood_Pressure,,,148.0,102.0,29.3,,,,1,1,0.90441147930315,High,Call patient to schedule appointment
+73,Male,1,Outpatient Ophthalmology,Other,0,107,1,0,0,True,GSD_A1c,8.6,Moderate Control (8.0-9.0),,,27.3,,,,0,0,0.0007831536763714738,Low,Low priority; routine follow-up
+48,Female,1,Outpatient Medical,Spanish,1,22,3,0,0,True,KED_Kidney_Health,,,,,21.9,0.0,1.0,,1,1,0.8575880771750523,High,Prioritize for care management review
+62,Female,0,Outpatient Ophthalmology,Spanish,0,119,4,0,0,False,CBP_Blood_Pressure,,,177.0,65.0,34.5,,,,1,1,0.822477520435354,High,Call patient to schedule appointment
+39,Male,0,OB Clinic,English,0,43,0,0,0,False,PPC_Postpartum_Care,,,,,27.0,,,,0,0,0.0012862067584522472,Low,Low priority; routine follow-up
+31,Male,1,OB Clinic,Spanish,0,-12,2,1,1,True,TRC_Medication_Reconciliation,,,,,35.2,,,,0,0,0.04820648181526729,Low,Low priority; routine follow-up
+25,Male,0,Outpatient ID,Spanish,0,6,1,1,0,False,TRC_Medication_Reconciliation,,,,,25.6,,,,0,0,0.012779566386746316,Low,Low priority; routine follow-up
+20,Male,0,1419 Myrtle Medicine,Spanish,0,-25,2,0,0,False,TRC_Medication_Reconciliation,,,,,22.3,,,,0,0,0.00937147819219337,Low,Low priority; routine follow-up
+56,Male,0,Outpatient Pediatrics,English,0,13,0,0,1,False,CBP_Blood_Pressure,,,117.0,67.0,28.6,,,,0,0,0.00815245478052417,Low,Low priority; routine follow-up
+49,Male,0,Outpatient Pediatrics,English,1,16,1,1,0,False,CBP_Blood_Pressure,,,122.0,91.0,27.5,,,,1,1,0.742291134378208,Medium,Send reminder and monitor appointment status
+62,Male,0,Outpatient Medical,Spanish,0,34,1,0,0,False,PPC_Postpartum_Care,,,,,24.5,,,,0,0,0.0032175565897129984,Low,Low priority; routine follow-up
+29,Female,1,Outpatient Ophthalmology,English,0,81,1,0,0,True,GSD_A1c,9.3,Poor Control (>9.0),,,32.6,,,,1,1,0.6167073066053287,Medium,Send reminder and monitor appointment status
+22,Male,1,Outpatient Ophthalmology,English,1,117,0,0,0,True,KED_Kidney_Health,,,,,25.6,0.0,1.0,,1,0,0.3146569416651639,Low,Low priority; routine follow-up
+53,Female,0,Outpatient Ophthalmology,English,0,-21,1,0,0,False,CBP_Blood_Pressure,,,116.0,65.0,34.4,,,,0,0,0.004062797220046639,Low,Low priority; routine follow-up
+48,Male,0,Outpatient Pediatrics,English,1,51,2,0,0,False,CBP_Blood_Pressure,,,174.0,80.0,31.3,,,,1,1,0.478214204057035,Low,Low priority; routine follow-up
+23,Female,1,Outpatient Pediatrics,Spanish,0,13,2,0,0,True,KED_Kidney_Health,,,,,44.3,1.0,1.0,,0,0,0.024136473493182847,Low,Low priority; routine follow-up
+50,Female,0,Outpatient Medical,English,0,107,2,1,0,False,CBP_Blood_Pressure,,,117.0,103.0,34.5,,,,1,1,0.8815592175231697,High,Call patient to schedule appointment
+57,Female,0,Outpatient Pediatrics,Spanish,0,44,2,0,0,False,CBP_Blood_Pressure,,,133.0,87.0,31.0,,,,0,0,0.00875727322965741,Low,Low priority; routine follow-up
+36,Female,0,Outpatient Ophthalmology,Spanish,0,26,1,0,0,False,TRC_Medication_Reconciliation,,,,,38.7,,,,0,0,0.0028514622129968115,Low,Low priority; routine follow-up
+76,Male,0,OB Clinic,English,1,57,1,0,0,False,CBP_Blood_Pressure,,,140.0,79.0,32.5,,,,1,0,0.3147368472313927,Low,Low priority; routine follow-up
+41,Female,0,Outpatient ID,Spanish,0,89,5,0,0,False,CBP_Blood_Pressure,,,161.0,103.0,22.4,,,,1,1,0.958827062134547,High,Call patient to schedule appointment
+55,Female,0,Outpatient ID,English,1,-13,0,0,0,False,PPC_Postpartum_Care,,,,,25.6,,,,0,0,0.00044253246180243867,Low,Low priority; routine follow-up
+30,Male,1,Outpatient Medical,English,0,89,1,0,0,True,CBP_Blood_Pressure,,,140.0,109.0,21.3,,,,1,0,0.821448801007568,High,Call patient to schedule appointment
+70,Female,0,Outpatient Pediatrics,Spanish,1,65,0,1,0,False,CBP_Blood_Pressure,,,113.0,108.0,32.9,,,,1,0,0.7454950780455439,Medium,Send reminder and monitor appointment status
+30,Female,0,1419 Myrtle Medicine,Spanish,0,105,2,0,0,False,CBP_Blood_Pressure,,,153.0,71.0,24.4,,,,1,0,0.8380300301760312,High,Call patient to schedule appointment
+29,Male,0,Outpatient Ophthalmology,English,0,48,1,0,0,False,CBP_Blood_Pressure,,,105.0,94.0,40.9,,,,1,1,0.8154012452118016,High,Call patient to schedule appointment
+58,Female,1,1419 Myrtle Medicine,English,1,56,0,0,0,True,KED_Kidney_Health,,,,,31.7,1.0,0.0,,1,0,0.24301298884613554,Low,Low priority; routine follow-up
+67,Female,1,Outpatient Ophthalmology,English,1,78,1,0,0,True,GSD_A1c,10.7,Poor Control (>9.0),,,33.2,,,,1,0,0.14832540708682979,Low,Low priority; routine follow-up
+59,Male,1,OB Clinic,Spanish,0,-2,1,0,0,True,KED_Kidney_Health,,,,,31.1,0.0,0.0,,1,1,0.933927132047174,High,Call patient to schedule appointment
+27,Female,1,Outpatient Pediatrics,English,1,-5,1,0,0,True,GSD_A1c,7.2,Controlled (<8.0),,,31.8,,,,0,0,0.0007159765637648661,Low,Low priority; routine follow-up
+74,Female,1,Outpatient Pediatrics,Spanish,0,69,0,1,0,True,EED_Eye_Exam,,,,,24.8,,,0.0,1,1,0.9571442144564238,High,Call patient to schedule appointment
+35,Male,1,Outpatient ID,Spanish,0,78,0,0,0,True,KED_Kidney_Health,,,,,35.3,1.0,0.0,,1,1,0.7988685137223206,High,Call patient to schedule appointment
+49,Female,0,Outpatient Pediatrics,English,0,47,1,1,0,False,CBP_Blood_Pressure,,,137.0,85.0,47.1,,,,0,0,0.008038517559827376,Low,Low priority; routine follow-up
+28,Female,1,OB Clinic,English,0,-5,1,0,0,True,CBP_Blood_Pressure,,,112.0,71.0,31.9,,,,0,0,0.004890341447282551,Low,Low priority; routine follow-up
+54,Female,1,Outpatient Ophthalmology,English,0,105,0,0,0,True,GSD_A1c,8.1,Moderate Control (8.0-9.0),,,28.1,,,,0,0,0.0005255658442093928,Low,Low priority; routine follow-up
+73,Female,0,Outpatient Pediatrics,English,0,31,0,1,0,False,PPC_Postpartum_Care,,,,,33.0,,,,0,0,0.00395872850511512,Low,Low priority; routine follow-up
+68,Male,0,1419 Myrtle Medicine,English,0,102,0,0,0,False,CBP_Blood_Pressure,,,115.0,87.0,31.6,,,,0,0,0.0011793882287292482,Low,Low priority; routine follow-up
+80,Female,0,Outpatient ID,English,1,114,1,0,0,False,TRC_Medication_Reconciliation,,,,,26.7,,,,0,0,7.958482755133328e-05,Low,Low priority; routine follow-up
+39,Male,0,Outpatient Ophthalmology,English,1,19,2,0,0,False,PPC_Postpartum_Care,,,,,28.9,,,,0,0,0.0003418451215873861,Low,Low priority; routine follow-up
+59,Male,0,Outpatient Medical,Spanish,0,100,1,1,1,False,CBP_Blood_Pressure,,,134.0,92.0,31.8,,,,1,1,0.9685558530844299,High,Call patient to schedule appointment
+44,Female,0,Outpatient Ophthalmology,Spanish,0,2,0,1,0,False,CBP_Blood_Pressure,,,124.0,89.0,34.3,,,,0,0,0.01778390581466647,Low,Low priority; routine follow-up
+34,Male,0,Outpatient Ophthalmology,Spanish,1,62,0,0,0,False,CBP_Blood_Pressure,,,148.0,84.0,33.4,,,,1,0,0.43336890051312005,Low,Low priority; routine follow-up
+32,Female,0,1419 Myrtle Medicine,Spanish,1,104,0,0,0,False,TRC_Medication_Reconciliation,,,,,24.5,,,,0,0,0.00014981480267832185,Low,Low priority; routine follow-up
+29,Female,1,OB Clinic,Other,0,64,3,0,0,True,GSD_A1c,8.8,Moderate Control (8.0-9.0),,,32.9,,,,0,0,0.0025515662507539696,Low,Low priority; routine follow-up
+66,Male,1,OB Clinic,English,0,-21,0,0,0,True,KED_Kidney_Health,,,,,28.6,0.0,1.0,,1,1,0.9518553095125446,High,Call patient to schedule appointment
+38,Female,0,Outpatient Pediatrics,Other,0,-19,1,0,0,False,CBP_Blood_Pressure,,,165.0,90.0,26.1,,,,1,1,0.9556325312195348,High,Call patient to schedule appointment
+49,Female,0,OB Clinic,English,1,15,0,1,0,False,TRC_Medication_Reconciliation,,,,,29.4,,,,0,0,0.0004794616955163382,Low,Low priority; routine follow-up
+20,Female,0,Outpatient ID,English,0,97,2,0,0,False,CBP_Blood_Pressure,,,177.0,76.0,26.2,,,,1,0,0.7915336162201848,High,Call patient to schedule appointment
+64,Female,1,Outpatient Medical,English,1,26,1,0,0,True,KED_Kidney_Health,,,,,36.5,1.0,1.0,,0,0,0.0008353184871011027,Low,Low priority; routine follow-up
+19,Male,0,Outpatient Ophthalmology,English,0,50,0,0,0,False,CBP_Blood_Pressure,,,157.0,71.0,24.7,,,,1,0,0.7392209194398561,Medium,Send reminder and monitor appointment status
+37,Male,0,1419 Myrtle Medicine,English,1,103,0,0,0,False,CBP_Blood_Pressure,,,133.0,68.0,35.4,,,,0,0,0.00013229034143316253,Low,Low priority; routine follow-up
+53,Male,0,Outpatient Pediatrics,Other,1,-15,1,0,0,False,CBP_Blood_Pressure,,,118.0,100.0,22.9,,,,1,0,0.7388343350211571,Medium,Send reminder and monitor appointment status
+45,Male,0,OB Clinic,English,1,45,2,0,0,False,PPC_Postpartum_Care,,,,,30.6,,,,0,0,0.0002645661811979866,Low,Low priority; routine follow-up
+22,Male,0,Outpatient ID,Spanish,0,97,0,0,0,False,TRC_Medication_Reconciliation,,,,,28.4,,,,0,0,0.0013249126632694534,Low,Low priority; routine follow-up
+43,Male,0,Outpatient Pediatrics,English,0,1,0,0,0,False,PPC_Postpartum_Care,,,,,23.1,,,,0,0,0.002692909100148445,Low,Low priority; routine follow-up
+30,Female,0,Outpatient Ophthalmology,Spanish,1,50,4,0,0,False,CBP_Blood_Pressure,,,156.0,69.0,25.1,,,,1,1,0.6354633448501951,Medium,Send reminder and monitor appointment status
+36,Female,1,1419 Myrtle Medicine,Spanish,0,54,2,1,0,True,CBP_Blood_Pressure,,,148.0,98.0,40.8,,,,1,1,0.9766091741213749,High,Call patient to schedule appointment
+75,Male,0,Outpatient Medical,Spanish,1,-21,3,0,0,False,TRC_Medication_Reconciliation,,,,,32.9,,,,0,0,0.001100155868745676,Low,Low priority; routine follow-up
+67,Female,0,Outpatient ID,English,1,91,1,0,0,False,CBP_Blood_Pressure,,,164.0,88.0,32.4,,,,1,0,0.32056307770332065,Low,Low priority; routine follow-up
+46,Male,1,OB Clinic,English,1,25,1,0,0,True,GSD_A1c,8.6,Moderate Control (8.0-9.0),,,32.8,,,,0,0,0.00027232652411242326,Low,Low priority; routine follow-up
+66,Female,1,Outpatient ID,Spanish,1,80,1,0,1,True,CBP_Blood_Pressure,,,124.0,102.0,27.7,,,,1,1,0.7960219598051415,High,Prioritize for care management review
+31,Male,0,Outpatient ID,English,1,-30,0,0,0,False,CBP_Blood_Pressure,,,172.0,65.0,30.9,,,,1,0,0.5832514969064071,Medium,Send reminder and monitor appointment status
+69,Male,0,Outpatient Medical,English,0,17,2,0,0,False,TRC_Medication_Reconciliation,,,,,24.6,,,,0,0,0.0020199835413906857,Low,Low priority; routine follow-up
+72,Male,0,OB Clinic,Other,0,14,0,0,0,False,CBP_Blood_Pressure,,,172.0,75.0,33.0,,,,1,1,0.8687776758682836,High,Call patient to schedule appointment
+75,Female,0,1419 Myrtle Medicine,Spanish,0,-6,1,0,0,False,CBP_Blood_Pressure,,,163.0,91.0,41.1,,,,1,1,0.9571855231172893,High,Call patient to schedule appointment
+58,Male,0,1419 Myrtle Medicine,English,0,117,0,0,0,False,PPC_Postpartum_Care,,,,,30.1,,,,0,0,0.0005355468078032885,Low,Low priority; routine follow-up
+62,Male,0,Outpatient Medical,English,0,6,1,0,0,False,CBP_Blood_Pressure,,,154.0,76.0,35.4,,,,1,1,0.8640037778018859,High,Call patient to schedule appointment
+20,Male,0,Outpatient Ophthalmology,Spanish,1,46,1,1,0,False,PPC_Postpartum_Care,,,,,35.6,,,,0,0,0.0009474625658977896,Low,Low priority; routine follow-up
+29,Male,0,Outpatient Ophthalmology,Spanish,0,115,1,0,1,False,TRC_Medication_Reconciliation,,,,,27.2,,,,0,0,0.0025830390484638593,Low,Low priority; routine follow-up
+20,Female,0,Outpatient ID,English,0,-18,1,0,0,False,TRC_Medication_Reconciliation,,,,,26.2,,,,0,0,0.0037648846113731496,Low,Low priority; routine follow-up
+58,Male,0,Outpatient ID,Other,0,75,2,1,0,False,PPC_Postpartum_Care,,,,,25.2,,,,0,0,0.0051427258271148175,Low,Low priority; routine follow-up
+77,Female,0,1419 Myrtle Medicine,English,1,-15,2,1,0,False,TRC_Medication_Reconciliation,,,,,18.4,,,,0,0,0.0011980145465550595,Low,Low priority; routine follow-up
+55,Female,0,Outpatient Medical,Spanish,1,104,0,0,0,False,CBP_Blood_Pressure,,,143.0,100.0,38.3,,,,1,0,0.36296379706909143,Low,Low priority; routine follow-up
+27,Female,0,OB Clinic,English,0,62,1,0,0,False,TRC_Medication_Reconciliation,,,,,33.4,,,,0,0,0.0010320614547622848,Low,Low priority; routine follow-up
+79,Female,1,Outpatient ID,Spanish,1,90,1,0,0,False,TRC_Medication_Reconciliation,,,,,31.2,,,,0,0,0.00023887895787718532,Low,Low priority; routine follow-up
+20,Female,0,Outpatient ID,English,1,60,2,0,0,False,CBP_Blood_Pressure,,,154.0,88.0,41.5,,,,1,0,0.4894894415118196,Low,Low priority; routine follow-up
+66,Male,1,Outpatient Ophthalmology,Spanish,1,103,1,1,0,True,GSD_A1c,5.8,Controlled (<8.0),,,36.4,,,,0,0,0.0006633143817134659,Low,Low priority; routine follow-up
+19,Female,0,1419 Myrtle Medicine,Spanish,1,100,1,0,0,False,CBP_Blood_Pressure,,,170.0,84.0,32.2,,,,1,1,0.4505877899035397,Low,Low priority; routine follow-up
+76,Male,1,OB Clinic,English,0,115,1,0,0,False,CBP_Blood_Pressure,,,137.0,96.0,25.1,,,,1,1,0.6997613154594314,Medium,Send reminder and monitor appointment status
+33,Female,0,Outpatient ID,Other,0,103,0,0,0,False,CBP_Blood_Pressure,,,115.0,84.0,30.6,,,,0,0,0.001793474312029889,Low,Low priority; routine follow-up
+52,Male,0,Outpatient Medical,English,0,-24,2,0,0,False,PPC_Postpartum_Care,,,,,21.8,,,,0,0,0.004466688341775122,Low,Low priority; routine follow-up
+74,Male,0,Outpatient ID,Spanish,0,105,1,0,0,False,PPC_Postpartum_Care,,,,,32.6,,,,0,0,0.00159989939396153,Low,Low priority; routine follow-up
+79,Male,1,Outpatient Medical,Spanish,1,105,0,1,0,False,TRC_Medication_Reconciliation,,,,,31.2,,,,0,0,0.00028986988138575876,Low,Low priority; routine follow-up
+20,Female,1,OB Clinic,English,0,64,1,1,0,True,EED_Eye_Exam,,,,,24.1,,,1.0,0,0,0.0015821446704431359,Low,Low priority; routine follow-up
+61,Female,0,OB Clinic,English,0,38,6,0,0,False,TRC_Medication_Reconciliation,,,,,31.0,,,,0,0,0.003908838286856046,Low,Low priority; routine follow-up
+80,Male,0,Outpatient ID,English,1,-14,1,0,1,False,CBP_Blood_Pressure,,,122.0,104.0,34.8,,,,1,1,0.8536768338721612,High,Verify care gap can be addressed during upcoming visit
+70,Male,0,Outpatient Pediatrics,Spanish,0,1,2,1,0,False,CBP_Blood_Pressure,,,126.0,82.0,31.2,,,,0,0,0.031351458313839925,Low,Low priority; routine follow-up
+64,Male,0,OB Clinic,Spanish,0,25,0,0,0,False,CBP_Blood_Pressure,,,142.0,107.0,38.3,,,,1,0,0.930101149786809,High,Call patient to schedule appointment
+79,Male,0,OB Clinic,Spanish,1,-17,1,1,0,False,CBP_Blood_Pressure,,,130.0,90.0,29.7,,,,1,1,0.8692847048635979,High,Verify care gap can be addressed during upcoming visit
+79,Male,0,Outpatient Pediatrics,English,1,-27,0,1,0,False,PPC_Postpartum_Care,,,,,31.5,,,,0,0,0.001158750575481646,Low,Low priority; routine follow-up
+47,Female,1,1419 Myrtle Medicine,Spanish,0,33,2,0,0,True,EED_Eye_Exam,,,,,39.0,,,1.0,0,0,0.002569473768398393,Low,Low priority; routine follow-up
+26,Female,0,Outpatient ID,English,1,-21,0,0,0,False,PPC_Postpartum_Care,,,,,32.0,,,,0,0,0.0005260790151702981,Low,Low priority; routine follow-up
+45,Male,0,1419 Myrtle Medicine,Spanish,1,-21,1,0,0,False,TRC_Medication_Reconciliation,,,,,24.7,,,,0,0,0.0009274232897587687,Low,Low priority; routine follow-up
+60,Female,0,1419 Myrtle Medicine,Spanish,1,43,2,1,0,False,CBP_Blood_Pressure,,,119.0,107.0,32.2,,,,1,0,0.8553270929802674,High,Prioritize for care management review
+49,Male,0,Outpatient Pediatrics,English,1,55,2,0,0,False,CBP_Blood_Pressure,,,126.0,72.0,38.0,,,,0,0,0.0004129928676382146,Low,Low priority; routine follow-up
+58,Male,0,Outpatient Ophthalmology,Spanish,0,26,1,0,0,False,CBP_Blood_Pressure,,,178.0,86.0,25.3,,,,1,0,0.9222055784353433,High,Call patient to schedule appointment
+21,Female,0,Outpatient Medical,English,0,28,0,0,0,False,PPC_Postpartum_Care,,,,,31.7,,,,0,0,0.0015567136312569629,Low,Low priority; routine follow-up
+45,Male,1,1419 Myrtle Medicine,English,0,69,0,0,0,True,GSD_A1c,6.4,Controlled (<8.0),,,34.3,,,,0,0,0.0015851019921945624,Low,Low priority; routine follow-up
+66,Female,1,OB Clinic,Spanish,1,-5,0,0,0,True,GSD_A1c,8.4,Moderate Control (8.0-9.0),,,32.7,,,,0,0,0.0006166321034592048,Low,Low priority; routine follow-up
+46,Male,0,1419 Myrtle Medicine,English,1,-19,3,0,0,False,CBP_Blood_Pressure,,,139.0,107.0,42.9,,,,1,1,0.793219607347452,High,Verify care gap can be addressed during upcoming visit
+47,Female,1,1419 Myrtle Medicine,English,0,75,1,0,0,True,TRC_Medication_Reconciliation,,,,,27.8,,,,0,0,0.001097360709671694,Low,Low priority; routine follow-up
+49,Female,1,Outpatient Ophthalmology,English,1,-2,3,1,0,True,GSD_A1c,8.5,Moderate Control (8.0-9.0),,,21.0,,,,0,0,0.001323399557516247,Low,Low priority; routine follow-up
+78,Male,0,Outpatient Medical,English,0,-9,1,0,0,False,CBP_Blood_Pressure,,,121.0,108.0,26.8,,,,1,0,0.9216474943869726,High,Call patient to schedule appointment
+76,Female,0,Outpatient ID,Spanish,0,98,0,0,0,False,CBP_Blood_Pressure,,,110.0,73.0,31.2,,,,0,0,0.002008861703866277,Low,Low priority; routine follow-up
+42,Female,1,Outpatient Medical,Spanish,0,46,1,0,0,True,GSD_A1c,7.4,Controlled (<8.0),,,20.4,,,,0,0,0.003909511404536013,Low,Low priority; routine follow-up
+30,Male,0,1419 Myrtle Medicine,Spanish,0,29,1,0,0,False,TRC_Medication_Reconciliation,,,,,18.0,,,,0,0,0.0036539418687651106,Low,Low priority; routine follow-up
+21,Male,0,Outpatient Ophthalmology,English,0,60,0,1,0,False,CBP_Blood_Pressure,,,161.0,104.0,26.3,,,,1,1,0.9134709045141273,High,Call patient to schedule appointment
+55,Male,0,Outpatient Ophthalmology,English,1,5,1,0,0,False,CBP_Blood_Pressure,,,144.0,79.0,21.5,,,,1,1,0.4699580826484439,Low,Low priority; routine follow-up
+21,Female,0,Outpatient Pediatrics,English,1,103,3,0,0,False,CBP_Blood_Pressure,,,171.0,93.0,19.0,,,,1,0,0.43790321332012805,Low,Low priority; routine follow-up
+77,Female,0,OB Clinic,English,1,-28,1,1,0,False,CBP_Blood_Pressure,,,167.0,74.0,36.6,,,,1,1,0.7661361095005111,High,Verify care gap can be addressed during upcoming visit
+75,Female,0,Outpatient ID,Other,1,17,2,0,0,False,TRC_Medication_Reconciliation,,,,,33.6,,,,0,0,0.0004840153733698569,Low,Low priority; routine follow-up
+31,Male,1,Outpatient Pediatrics,English,0,19,4,1,1,True,KED_Kidney_Health,,,,,40.9,1.0,1.0,,0,0,0.10655414656341311,Low,Low priority; routine follow-up
+79,Male,0,OB Clinic,English,0,49,3,0,0,False,CBP_Blood_Pressure,,,174.0,68.0,18.6,,,,1,1,0.841440977741306,High,Call patient to schedule appointment
+73,Male,1,OB Clinic,English,0,24,0,1,0,True,CBP_Blood_Pressure,,,116.0,66.0,25.7,,,,0,0,0.0053658865390349385,Low,Low priority; routine follow-up
+69,Female,0,OB Clinic,Spanish,1,101,0,0,0,False,CBP_Blood_Pressure,,,144.0,85.0,42.8,,,,1,0,0.31458470013645795,Low,Low priority; routine follow-up
+74,Female,0,Outpatient Pediatrics,English,0,119,2,0,0,False,TRC_Medication_Reconciliation,,,,,35.8,,,,0,0,0.0006580034622514178,Low,Low priority; routine follow-up
+23,Male,1,Outpatient Ophthalmology,Other,0,71,0,0,0,True,GSD_A1c,7.0,Controlled (<8.0),,,23.4,,,,0,0,0.0016425414952521455,Low,Low priority; routine follow-up
+65,Male,0,Outpatient Pediatrics,English,1,65,6,0,0,False,TRC_Medication_Reconciliation,,,,,30.6,,,,0,0,0.0004619984336814277,Low,Low priority; routine follow-up
+39,Female,1,1419 Myrtle Medicine,English,1,74,2,0,0,True,GSD_A1c,8.5,Moderate Control (8.0-9.0),,,26.4,,,,0,0,0.00021386665528507843,Low,Low priority; routine follow-up
+28,Female,1,Outpatient ID,English,1,14,3,0,0,True,GSD_A1c,7.6,Controlled (<8.0),,,34.2,,,,0,0,0.0008445376847150788,Low,Low priority; routine follow-up
+35,Male,1,Outpatient Pediatrics,Spanish,0,-4,2,0,0,True,PPC_Postpartum_Care,,,,,43.8,,,,0,0,0.009991996027175393,Low,Low priority; routine follow-up
+47,Female,0,Outpatient Ophthalmology,English,0,5,0,0,0,False,CBP_Blood_Pressure,,,131.0,98.0,28.2,,,,1,1,0.8736765921053965,High,Call patient to schedule appointment
+47,Female,1,Outpatient ID,Spanish,0,11,1,0,0,True,GSD_A1c,9.6,Poor Control (>9.0),,,25.3,,,,1,1,0.9102589027241793,High,Call patient to schedule appointment
+74,Male,1,OB Clinic,Spanish,1,114,2,0,0,True,GSD_A1c,7.1,Controlled (<8.0),,,23.1,,,,0,0,0.00027805111596616026,Low,Low priority; routine follow-up
+43,Female,0,Outpatient Pediatrics,English,0,30,3,0,0,False,CBP_Blood_Pressure,,,127.0,67.0,19.7,,,,0,0,0.004891787859124322,Low,Low priority; routine follow-up
+48,Female,1,Outpatient Pediatrics,Spanish,1,19,1,0,0,True,TRC_Medication_Reconciliation,,,,,26.9,,,,0,0,0.0006554981185328188,Low,Low priority; routine follow-up
+28,Female,0,1419 Myrtle Medicine,English,1,74,4,0,0,False,CBP_Blood_Pressure,,,168.0,66.0,28.1,,,,1,0,0.4483746110206748,Low,Low priority; routine follow-up
+49,Female,1,Outpatient Ophthalmology,English,0,55,2,0,0,True,EED_Eye_Exam,,,,,25.3,,,1.0,0,0,0.000776570111490048,Low,Low priority; routine follow-up
+68,Female,1,1419 Myrtle Medicine,Spanish,0,84,1,0,1,True,EED_Eye_Exam,,,,,24.9,,,0.0,1,1,0.9624751449542603,High,Call patient to schedule appointment
+80,Male,0,Outpatient ID,English,1,-18,0,0,0,False,TRC_Medication_Reconciliation,,,,,31.1,,,,0,0,0.00035704002747861355,Low,Low priority; routine follow-up
+70,Male,0,Outpatient Ophthalmology,English,1,-6,2,0,0,False,CBP_Blood_Pressure,,,132.0,65.0,24.7,,,,0,0,0.0005890885567738203,Low,Low priority; routine follow-up
+78,Female,1,Outpatient Pediatrics,Other,0,45,1,0,0,False,PPC_Postpartum_Care,,,,,28.5,,,,0,0,0.002605886099524436,Low,Low priority; routine follow-up
+30,Male,1,Outpatient Ophthalmology,Spanish,1,80,1,0,1,True,KED_Kidney_Health,,,,,32.4,1.0,1.0,,0,0,0.0023580574624410618,Low,Low priority; routine follow-up
+80,Male,1,Outpatient Medical,Spanish,0,33,1,0,0,False,CBP_Blood_Pressure,,,109.0,68.0,23.3,,,,0,0,0.00458253772549919,Low,Low priority; routine follow-up
+79,Male,0,Outpatient Ophthalmology,English,0,91,3,0,0,False,CBP_Blood_Pressure,,,134.0,96.0,29.6,,,,1,1,0.7973487315488003,High,Call patient to schedule appointment
+27,Male,0,Outpatient ID,English,0,54,0,0,0,False,TRC_Medication_Reconciliation,,,,,38.4,,,,0,0,0.001149547512485964,Low,Low priority; routine follow-up
+66,Female,0,Outpatient Medical,English,0,77,1,0,0,False,CBP_Blood_Pressure,,,132.0,91.0,29.6,,,,1,1,0.751392158857035,High,Call patient to schedule appointment
+23,Female,1,Outpatient Ophthalmology,Spanish,1,10,0,0,1,True,TRC_Medication_Reconciliation,,,,,36.4,,,,0,0,0.001289924174783386,Low,Low priority; routine follow-up
+23,Female,1,Outpatient Medical,English,0,-15,2,0,0,True,GSD_A1c,6.1,Controlled (<8.0),,,21.5,,,,0,0,0.006806352063296687,Low,Low priority; routine follow-up
+72,Female,0,1419 Myrtle Medicine,English,0,-2,0,0,0,False,PPC_Postpartum_Care,,,,,31.1,,,,0,0,0.002420960112990398,Low,Low priority; routine follow-up
+39,Female,1,1419 Myrtle Medicine,English,0,93,0,0,0,True,GSD_A1c,10.5,Poor Control (>9.0),,,30.1,,,,1,1,0.5400701768143292,Medium,Send reminder and monitor appointment status
+19,Female,0,Outpatient ID,Spanish,1,48,2,1,0,False,TRC_Medication_Reconciliation,,,,,25.1,,,,0,0,0.0013029967833118965,Low,Low priority; routine follow-up
+76,Female,0,OB Clinic,English,1,-8,2,0,0,False,TRC_Medication_Reconciliation,,,,,36.1,,,,0,0,0.0003892286689531195,Low,Low priority; routine follow-up
+21,Female,0,Outpatient Pediatrics,English,1,63,0,0,0,False,TRC_Medication_Reconciliation,,,,,43.5,,,,0,0,0.00013813680669032093,Low,Low priority; routine follow-up
+64,Female,0,Outpatient ID,Spanish,1,116,2,0,0,False,TRC_Medication_Reconciliation,,,,,32.9,,,,0,0,0.00019746601242902803,Low,Low priority; routine follow-up
+41,Female,0,Outpatient Pediatrics,Other,1,67,0,0,0,False,PPC_Postpartum_Care,,,,,27.9,,,,0,0,0.00021434542995789474,Low,Low priority; routine follow-up
+79,Male,0,Outpatient Pediatrics,English,0,83,2,1,1,False,CBP_Blood_Pressure,,,133.0,109.0,24.5,,,,1,1,0.9753295265521379,High,Call patient to schedule appointment
+33,Male,0,1419 Myrtle Medicine,Other,1,118,3,0,0,False,PPC_Postpartum_Care,,,,,22.5,,,,0,0,0.00020915091872230756,Low,Low priority; routine follow-up
+68,Female,1,Outpatient Ophthalmology,Other,0,48,2,0,0,True,CBP_Blood_Pressure,,,110.0,105.0,26.0,,,,1,0,0.9062460306228906,High,Call patient to schedule appointment
+43,Male,1,Outpatient Pediatrics,English,0,46,2,0,0,True,EED_Eye_Exam,,,,,33.4,,,0.0,1,0,0.914794656130823,High,Call patient to schedule appointment
+27,Male,1,Outpatient ID,Spanish,1,85,2,0,0,True,CBP_Blood_Pressure,,,117.0,78.0,18.0,,,,0,0,0.000757495131945757,Low,Low priority; routine follow-up
+59,Male,0,1419 Myrtle Medicine,English,1,90,1,0,0,False,CBP_Blood_Pressure,,,116.0,78.0,19.7,,,,0,0,0.00021233295168736113,Low,Low priority; routine follow-up
+23,Female,0,Outpatient Medical,Spanish,0,-24,0,0,0,False,TRC_Medication_Reconciliation,,,,,33.8,,,,0,0,0.004835866152451522,Low,Low priority; routine follow-up
+42,Male,1,Outpatient Medical,English,1,31,1,0,0,True,TRC_Medication_Reconciliation,,,,,31.4,,,,0,0,0.00022733494000353453,Low,Low priority; routine follow-up
+31,Female,0,OB Clinic,English,0,101,1,0,0,False,TRC_Medication_Reconciliation,,,,,35.3,,,,0,0,0.0006127526410903753,Low,Low priority; routine follow-up
+26,Female,0,Outpatient ID,Spanish,0,82,2,0,0,False,TRC_Medication_Reconciliation,,,,,26.0,,,,0,0,0.0024754469517029773,Low,Low priority; routine follow-up
+63,Female,0,Outpatient Ophthalmology,Spanish,0,79,1,0,0,False,TRC_Medication_Reconciliation,,,,,22.3,,,,0,0,0.001357700835086855,Low,Low priority; routine follow-up
+52,Female,0,OB Clinic,Spanish,1,96,1,0,0,False,CBP_Blood_Pressure,,,174.0,69.0,31.0,,,,1,0,0.34985879491102445,Low,Low priority; routine follow-up
+59,Male,1,Outpatient Pediatrics,Other,0,56,0,0,0,True,CBP_Blood_Pressure,,,176.0,104.0,26.2,,,,1,1,0.9026516414920405,High,Call patient to schedule appointment
+79,Male,0,Outpatient Pediatrics,English,1,77,3,1,0,False,CBP_Blood_Pressure,,,125.0,104.0,40.4,,,,1,0,0.6991933838324527,Medium,Send reminder and monitor appointment status
+46,Male,0,1419 Myrtle Medicine,English,1,38,1,0,0,False,PPC_Postpartum_Care,,,,,31.5,,,,0,0,0.00026685524161486823,Low,Low priority; routine follow-up
+40,Male,0,Outpatient ID,Spanish,1,86,3,1,0,False,CBP_Blood_Pressure,,,142.0,71.0,30.5,,,,1,0,0.7368130499681937,Medium,Send reminder and monitor appointment status
+40,Male,1,Outpatient Medical,English,0,28,0,0,0,True,EED_Eye_Exam,,,,,25.9,,,0.0,1,0,0.8746404192543239,High,Call patient to schedule appointment
+75,Female,0,Outpatient Ophthalmology,English,0,46,2,0,0,False,TRC_Medication_Reconciliation,,,,,26.3,,,,0,0,0.0012755082062964303,Low,Low priority; routine follow-up
+69,Male,0,Outpatient Medical,Spanish,1,-1,0,1,0,False,PPC_Postpartum_Care,,,,,23.8,,,,0,0,0.0013260046510638985,Low,Low priority; routine follow-up
+74,Female,0,Outpatient Pediatrics,English,1,-11,0,1,0,False,PPC_Postpartum_Care,,,,,36.0,,,,0,0,0.0009433193180095997,Low,Low priority; routine follow-up
+36,Female,1,Outpatient Medical,Spanish,1,53,1,0,0,True,GSD_A1c,5.7,Controlled (<8.0),,,33.1,,,,0,0,0.00061807111754884,Low,Low priority; routine follow-up
+62,Male,1,Outpatient ID,English,0,8,1,0,0,True,GSD_A1c,8.9,Moderate Control (8.0-9.0),,,33.1,,,,0,0,0.0028361322247397215,Low,Low priority; routine follow-up
+72,Female,0,Outpatient Medical,English,1,106,2,0,0,False,CBP_Blood_Pressure,,,143.0,96.0,41.5,,,,1,0,0.28063152359916316,Low,Low priority; routine follow-up
+23,Male,0,Outpatient ID,Spanish,1,-3,1,0,0,False,CBP_Blood_Pressure,,,139.0,109.0,22.3,,,,1,1,0.8282614235315905,High,Verify care gap can be addressed during upcoming visit
+39,Female,0,OB Clinic,Spanish,0,113,3,0,0,False,CBP_Blood_Pressure,,,116.0,85.0,29.7,,,,0,0,0.0035317675789392974,Low,Low priority; routine follow-up
+79,Female,0,Outpatient Medical,English,0,118,1,0,0,False,TRC_Medication_Reconciliation,,,,,33.9,,,,0,0,0.00041595558974804757,Low,Low priority; routine follow-up
+74,Female,0,OB Clinic,Other,0,36,1,1,0,False,PPC_Postpartum_Care,,,,,25.5,,,,0,0,0.005216884056116939,Low,Low priority; routine follow-up
+59,Female,0,Outpatient ID,English,0,-5,2,0,0,False,TRC_Medication_Reconciliation,,,,,24.6,,,,0,0,0.0035870632046394167,Low,Low priority; routine follow-up
+23,Female,0,OB Clinic,English,0,112,0,1,0,False,PPC_Postpartum_Care,,,,,30.0,,,,0,0,0.0012941197007430136,Low,Low priority; routine follow-up
+50,Female,1,OB Clinic,English,0,112,1,0,1,True,KED_Kidney_Health,,,,,39.0,1.0,1.0,,0,0,0.005888539566478903,Low,Low priority; routine follow-up
+50,Female,0,OB Clinic,Spanish,1,-1,2,0,0,False,CBP_Blood_Pressure,,,111.0,75.0,25.9,,,,0,0,0.0014047464437280486,Low,Low priority; routine follow-up
+35,Female,1,Outpatient Medical,Spanish,0,-3,0,0,0,True,CBP_Blood_Pressure,,,149.0,93.0,27.1,,,,1,1,0.9483932031330432,High,Call patient to schedule appointment
+20,Female,0,Outpatient Pediatrics,English,0,61,2,0,0,False,CBP_Blood_Pressure,,,158.0,67.0,23.2,,,,1,1,0.827582756750059,High,Call patient to schedule appointment
+77,Male,1,1419 Myrtle Medicine,Spanish,1,25,0,0,0,False,CBP_Blood_Pressure,,,110.0,83.0,30.9,,,,0,0,0.0008809117406187955,Low,Low priority; routine follow-up
+68,Male,0,Outpatient ID,Other,1,21,0,0,0,False,CBP_Blood_Pressure,,,170.0,82.0,40.4,,,,1,0,0.5403133870461809,Medium,Send reminder and monitor appointment status
+68,Male,1,Outpatient ID,Spanish,0,16,0,0,0,True,KED_Kidney_Health,,,,,24.5,1.0,1.0,,0,0,0.01414729357446144,Low,Low priority; routine follow-up
+58,Female,0,1419 Myrtle Medicine,Spanish,0,116,2,0,0,False,TRC_Medication_Reconciliation,,,,,24.3,,,,0,0,0.0013476234599863596,Low,Low priority; routine follow-up
+69,Female,0,Outpatient Pediatrics,English,0,-28,3,0,0,False,CBP_Blood_Pressure,,,146.0,86.0,42.6,,,,1,1,0.9565537581850184,High,Call patient to schedule appointment
+50,Male,0,OB Clinic,English,0,89,3,1,0,False,CBP_Blood_Pressure,,,116.0,95.0,25.9,,,,1,0,0.9152618263143906,High,Call patient to schedule appointment
+32,Male,0,Outpatient Medical,Spanish,0,27,1,0,0,False,CBP_Blood_Pressure,,,134.0,79.0,34.5,,,,0,0,0.006455489516149126,Low,Low priority; routine follow-up
+48,Male,1,1419 Myrtle Medicine,Spanish,0,66,1,0,0,True,EED_Eye_Exam,,,,,30.5,,,0.0,1,1,0.9244491725428183,High,Call patient to schedule appointment
+40,Female,0,Outpatient Pediatrics,English,0,102,0,0,0,False,PPC_Postpartum_Care,,,,,34.2,,,,0,0,0.0007148052008795089,Low,Low priority; routine follow-up
+46,Female,0,Outpatient Medical,English,0,-15,1,0,1,False,PPC_Postpartum_Care,,,,,26.1,,,,0,0,0.00888987678201179,Low,Low priority; routine follow-up
+23,Male,0,Outpatient Medical,Spanish,1,45,1,0,0,False,TRC_Medication_Reconciliation,,,,,21.4,,,,0,0,0.0003469289141510343,Low,Low priority; routine follow-up
+58,Male,0,Outpatient Medical,English,0,114,1,1,0,False,TRC_Medication_Reconciliation,,,,,23.0,,,,0,0,0.0011278126502867064,Low,Low priority; routine follow-up
+35,Female,0,Outpatient Pediatrics,English,0,65,2,1,0,False,CBP_Blood_Pressure,,,122.0,81.0,37.0,,,,0,0,0.007437792778223654,Low,Low priority; routine follow-up
+49,Female,1,Outpatient ID,English,0,48,1,1,0,True,PPC_Postpartum_Care,,,,,36.2,,,,0,0,0.004934389547699538,Low,Low priority; routine follow-up
+29,Male,1,Outpatient ID,English,0,-24,2,1,0,True,EED_Eye_Exam,,,,,40.2,,,1.0,0,0,0.007475195209437059,Low,Low priority; routine follow-up
+47,Female,0,Outpatient Medical,English,1,82,0,0,0,False,PPC_Postpartum_Care,,,,,23.9,,,,0,0,0.00010032365905620219,Low,Low priority; routine follow-up
+69,Male,0,Outpatient Ophthalmology,English,0,99,3,0,0,False,TRC_Medication_Reconciliation,,,,,30.3,,,,0,0,0.0008102083277846825,Low,Low priority; routine follow-up
+39,Female,0,1419 Myrtle Medicine,English,1,75,1,0,0,False,PPC_Postpartum_Care,,,,,23.0,,,,0,0,0.0001685355962251717,Low,Low priority; routine follow-up
+80,Female,0,Outpatient Medical,English,1,61,2,0,0,False,CBP_Blood_Pressure,,,139.0,90.0,35.1,,,,1,0,0.38166220143920837,Low,Low priority; routine follow-up
+41,Female,1,Outpatient ID,English,0,-17,2,0,0,True,GSD_A1c,9.2,Poor Control (>9.0),,,31.8,,,,1,1,0.9076707996317123,High,Call patient to schedule appointment
+41,Female,0,OB Clinic,English,1,-3,0,0,0,False,CBP_Blood_Pressure,,,165.0,79.0,31.1,,,,1,1,0.48657738976114673,Low,Low priority; routine follow-up
+57,Male,0,Outpatient Medical,Spanish,0,-18,1,0,0,False,CBP_Blood_Pressure,,,142.0,94.0,40.6,,,,1,1,0.9577831675215286,High,Call patient to schedule appointment
+27,Male,0,Outpatient Medical,Spanish,0,21,0,1,0,False,CBP_Blood_Pressure,,,109.0,107.0,23.8,,,,1,1,0.9703498065084636,High,Call patient to schedule appointment
+70,Male,1,Outpatient Medical,Spanish,1,0,0,0,0,True,CBP_Blood_Pressure,,,165.0,75.0,44.5,,,,1,0,0.6279696947856148,Medium,Send reminder and monitor appointment status
+25,Male,1,OB Clinic,Spanish,1,6,1,1,0,True,CBP_Blood_Pressure,,,135.0,67.0,35.5,,,,0,0,0.002791233427919866,Low,Low priority; routine follow-up
+54,Male,0,Outpatient Pediatrics,Other,1,34,1,0,0,False,CBP_Blood_Pressure,,,165.0,76.0,27.9,,,,1,1,0.529673625362392,Medium,Send reminder and monitor appointment status
+70,Female,1,Outpatient ID,English,0,-2,1,0,0,True,CBP_Blood_Pressure,,,141.0,91.0,41.8,,,,1,1,0.9269830014164103,High,Call patient to schedule appointment
+46,Female,1,Outpatient ID,English,1,33,0,1,0,True,KED_Kidney_Health,,,,,27.7,0.0,0.0,,1,0,0.6093165244262685,Medium,Send reminder and monitor appointment status
+30,Female,0,Outpatient ID,Spanish,1,-26,2,0,0,False,CBP_Blood_Pressure,,,144.0,91.0,30.6,,,,1,1,0.8541539069521421,High,Verify care gap can be addressed during upcoming visit
+41,Female,0,Outpatient ID,English,1,11,1,0,0,False,CBP_Blood_Pressure,,,132.0,77.0,45.2,,,,0,0,0.000675384132763372,Low,Low priority; routine follow-up
+25,Male,1,Outpatient Ophthalmology,Other,0,109,1,0,0,True,GSD_A1c,7.2,Controlled (<8.0),,,29.8,,,,0,0,0.0012012870541025995,Low,Low priority; routine follow-up
+25,Female,0,Outpatient Medical,Other,0,108,1,0,0,False,CBP_Blood_Pressure,,,126.0,82.0,25.0,,,,0,0,0.0016470362510217615,Low,Low priority; routine follow-up
+71,Male,1,Outpatient Pediatrics,English,1,66,3,0,0,True,CBP_Blood_Pressure,,,107.0,82.0,25.2,,,,0,0,0.0005492381475194275,Low,Low priority; routine follow-up
+61,Male,0,Outpatient Ophthalmology,English,1,34,2,0,1,False,CBP_Blood_Pressure,,,128.0,108.0,24.5,,,,1,1,0.7650259508210374,High,Prioritize for care management review
+28,Male,0,Outpatient Medical,Spanish,0,82,0,0,0,False,CBP_Blood_Pressure,,,152.0,95.0,33.4,,,,1,1,0.8489332814132476,High,Call patient to schedule appointment
+53,Female,1,Outpatient ID,Spanish,0,-19,0,0,0,True,CBP_Blood_Pressure,,,130.0,107.0,24.1,,,,1,1,0.9714708197633968,High,Call patient to schedule appointment
+30,Male,0,Outpatient Pediatrics,Spanish,1,67,0,0,0,False,PPC_Postpartum_Care,,,,,24.1,,,,0,0,0.0003210021289716765,Low,Low priority; routine follow-up
+49,Male,1,Outpatient ID,Spanish,0,50,1,0,0,True,EED_Eye_Exam,,,,,31.1,,,0.0,1,1,0.9423178083865088,High,Call patient to schedule appointment
+64,Female,1,OB Clinic,Spanish,1,-1,1,1,0,True,CBP_Blood_Pressure,,,164.0,79.0,30.2,,,,1,1,0.8539662736767764,High,Verify care gap can be addressed during upcoming visit
+65,Female,0,OB Clinic,English,1,106,2,0,0,False,CBP_Blood_Pressure,,,167.0,71.0,32.2,,,,1,0,0.22631393434065725,Low,Low priority; routine follow-up
+66,Female,1,Outpatient Pediatrics,Spanish,1,3,1,0,0,True,KED_Kidney_Health,,,,,35.3,1.0,1.0,,0,0,0.002808493577274038,Low,Low priority; routine follow-up
+40,Male,1,Outpatient Medical,English,1,0,1,0,0,True,CBP_Blood_Pressure,,,154.0,93.0,24.4,,,,1,0,0.6094936632052909,Medium,Send reminder and monitor appointment status
+54,Female,0,1419 Myrtle Medicine,Other,0,27,1,0,0,False,PPC_Postpartum_Care,,,,,42.4,,,,0,0,0.002925971604168555,Low,Low priority; routine follow-up
+41,Female,1,Outpatient Medical,Other,0,38,0,0,0,True,TRC_Medication_Reconciliation,,,,,19.0,,,,0,0,0.0016632735190520093,Low,Low priority; routine follow-up
+35,Female,1,Outpatient Medical,English,0,63,0,1,0,True,CBP_Blood_Pressure,,,159.0,101.0,30.7,,,,1,1,0.9173769958830928,High,Call patient to schedule appointment
+47,Male,1,Outpatient Ophthalmology,Spanish,0,0,1,1,1,True,KED_Kidney_Health,,,,,34.4,0.0,0.0,,1,1,0.9884405006598067,High,Call patient to schedule appointment
+29,Female,0,1419 Myrtle Medicine,Spanish,1,35,1,1,0,False,PPC_Postpartum_Care,,,,,23.9,,,,0,0,0.0013736356801566751,Low,Low priority; routine follow-up
+57,Female,1,Outpatient Ophthalmology,English,0,52,2,0,0,True,GSD_A1c,9.4,Poor Control (>9.0),,,33.8,,,,1,1,0.728652252014023,Medium,Send reminder and monitor appointment status
+45,Female,0,Outpatient ID,English,0,93,2,0,0,False,CBP_Blood_Pressure,,,165.0,75.0,19.7,,,,1,1,0.7816984425005129,High,Call patient to schedule appointment
+35,Female,0,Outpatient ID,English,0,3,0,0,0,False,TRC_Medication_Reconciliation,,,,,33.9,,,,0,0,0.0021888204869187477,Low,Low priority; routine follow-up
+32,Male,0,Outpatient Pediatrics,Spanish,0,72,0,0,0,False,CBP_Blood_Pressure,,,175.0,79.0,36.6,,,,1,1,0.8670708064857097,High,Call patient to schedule appointment
+21,Male,0,Outpatient ID,English,0,-15,0,1,0,False,TRC_Medication_Reconciliation,,,,,31.5,,,,0,0,0.006898488645558697,Low,Low priority; routine follow-up
+18,Male,0,Outpatient ID,Spanish,1,69,1,0,0,False,CBP_Blood_Pressure,,,157.0,83.0,35.5,,,,1,0,0.559158148862947,Medium,Send reminder and monitor appointment status
+39,Male,1,Outpatient Medical,Spanish,1,82,3,0,0,True,EED_Eye_Exam,,,,,24.0,,,1.0,0,0,0.00020352851636063575,Low,Low priority; routine follow-up
+52,Female,0,OB Clinic,Spanish,0,-27,2,0,0,False,CBP_Blood_Pressure,,,116.0,71.0,23.9,,,,0,0,0.01332719730882971,Low,Low priority; routine follow-up
+42,Male,0,Outpatient Pediatrics,English,1,29,0,0,0,False,CBP_Blood_Pressure,,,136.0,92.0,26.0,,,,1,0,0.46811180980910755,Low,Low priority; routine follow-up
+41,Male,0,Outpatient Ophthalmology,English,0,17,1,1,0,False,PPC_Postpartum_Care,,,,,30.0,,,,0,0,0.004820417554730747,Low,Low priority; routine follow-up
+33,Male,0,Outpatient Ophthalmology,Spanish,0,101,0,0,1,False,PPC_Postpartum_Care,,,,,33.4,,,,0,0,0.003019353218168662,Low,Low priority; routine follow-up
+67,Male,0,Outpatient Pediatrics,Spanish,1,40,2,0,0,False,CBP_Blood_Pressure,,,121.0,103.0,31.0,,,,1,0,0.7157841530328689,Medium,Send reminder and monitor appointment status
+75,Female,0,Outpatient Ophthalmology,Spanish,0,87,0,0,0,False,CBP_Blood_Pressure,,,144.0,78.0,28.4,,,,1,1,0.7619349438210368,High,Call patient to schedule appointment
+28,Female,1,Outpatient Medical,English,0,-28,1,0,0,True,EED_Eye_Exam,,,,,36.6,,,0.0,1,1,0.9483002273117203,High,Call patient to schedule appointment
+28,Male,0,OB Clinic,English,0,2,1,1,0,False,CBP_Blood_Pressure,,,140.0,76.0,25.3,,,,1,1,0.9466075232018216,High,Call patient to schedule appointment
+78,Male,1,Outpatient Pediatrics,English,0,111,1,0,0,False,TRC_Medication_Reconciliation,,,,,19.8,,,,0,0,0.0006618859321300235,Low,Low priority; routine follow-up
+61,Female,0,Outpatient Pediatrics,Other,0,91,1,0,0,False,PPC_Postpartum_Care,,,,,25.6,,,,0,0,0.001345285441974163,Low,Low priority; routine follow-up
+52,Male,1,Outpatient Ophthalmology,English,1,-24,1,0,0,True,GSD_A1c,8.8,Moderate Control (8.0-9.0),,,36.5,,,,0,0,0.0004456499970696955,Low,Low priority; routine follow-up
+74,Female,0,OB Clinic,English,1,80,1,0,0,False,CBP_Blood_Pressure,,,114.0,93.0,27.5,,,,1,0,0.28726985217894924,Low,Low priority; routine follow-up
+43,Female,0,Outpatient Ophthalmology,English,1,73,2,0,0,False,CBP_Blood_Pressure,,,144.0,83.0,35.0,,,,1,0,0.3303056183465314,Low,Low priority; routine follow-up
+38,Male,1,1419 Myrtle Medicine,Spanish,1,15,2,0,0,True,KED_Kidney_Health,,,,,27.4,0.0,1.0,,1,0,0.8669073547476306,High,Prioritize for care management review
+37,Female,0,Outpatient Pediatrics,English,1,48,1,0,0,False,CBP_Blood_Pressure,,,120.0,66.0,26.0,,,,0,0,0.0003345797312274503,Low,Low priority; routine follow-up
+65,Male,0,OB Clinic,Other,0,30,1,0,0,False,TRC_Medication_Reconciliation,,,,,30.9,,,,0,0,0.001953194767222804,Low,Low priority; routine follow-up
+32,Female,1,Outpatient ID,Spanish,1,-13,1,0,0,True,EED_Eye_Exam,,,,,31.8,,,1.0,0,0,0.0005923594757860504,Low,Low priority; routine follow-up
+50,Male,1,Outpatient ID,English,1,-22,0,0,0,True,PPC_Postpartum_Care,,,,,26.3,,,,0,0,0.0005792157048006935,Low,Low priority; routine follow-up
+31,Female,1,Outpatient ID,English,0,-26,3,0,0,True,CBP_Blood_Pressure,,,173.0,76.0,40.3,,,,1,1,0.9622660011840773,High,Call patient to schedule appointment
+61,Female,0,1419 Myrtle Medicine,Spanish,1,-13,2,0,0,False,CBP_Blood_Pressure,,,127.0,80.0,27.5,,,,0,0,0.0020980510311539896,Low,Low priority; routine follow-up
+52,Male,0,OB Clinic,Spanish,0,48,0,1,0,False,TRC_Medication_Reconciliation,,,,,26.4,,,,0,0,0.00443204983910454,Low,Low priority; routine follow-up
+46,Female,1,Outpatient Pediatrics,English,0,56,3,0,0,True,GSD_A1c,8.3,Moderate Control (8.0-9.0),,,28.8,,,,0,0,0.002590102804008254,Low,Low priority; routine follow-up
+37,Male,0,Outpatient Medical,English,1,20,1,0,0,False,TRC_Medication_Reconciliation,,,,,18.0,,,,0,0,0.0002360655308932724,Low,Low priority; routine follow-up
+77,Male,0,Outpatient Medical,Spanish,0,117,0,0,0,False,TRC_Medication_Reconciliation,,,,,24.6,,,,0,0,0.0006796176671986462,Low,Low priority; routine follow-up
+53,Female,0,Outpatient ID,English,1,-21,0,0,1,False,CBP_Blood_Pressure,,,117.0,75.0,22.9,,,,0,0,0.002103808600650021,Low,Low priority; routine follow-up
+21,Male,1,Outpatient Ophthalmology,English,0,90,1,0,0,True,KED_Kidney_Health,,,,,19.9,1.0,0.0,,1,1,0.6209055711771576,Medium,Send reminder and monitor appointment status
+53,Female,0,Outpatient Medical,English,1,39,1,0,0,False,CBP_Blood_Pressure,,,114.0,73.0,21.6,,,,0,0,0.0003162604291435009,Low,Low priority; routine follow-up
+50,Male,1,Outpatient Medical,Spanish,1,63,3,0,0,True,GSD_A1c,10.3,Poor Control (>9.0),,,30.7,,,,1,1,0.4338174953754432,Low,Low priority; routine follow-up
+50,Male,1,Outpatient Pediatrics,English,0,-18,0,0,0,True,CBP_Blood_Pressure,,,170.0,103.0,39.1,,,,1,1,0.9455060773996513,High,Call patient to schedule appointment
+54,Female,1,OB Clinic,English,1,117,2,1,0,True,EED_Eye_Exam,,,,,27.3,,,0.0,1,0,0.528964947199152,Medium,Send reminder and monitor appointment status
+36,Male,1,Outpatient Ophthalmology,Spanish,1,1,0,0,0,True,TRC_Medication_Reconciliation,,,,,40.9,,,,0,0,0.0005028470186895566,Low,Low priority; routine follow-up
+32,Female,0,OB Clinic,English,0,22,2,0,0,False,CBP_Blood_Pressure,,,168.0,100.0,25.6,,,,1,0,0.9200021775995624,High,Call patient to schedule appointment
+71,Female,0,Outpatient Medical,English,1,37,3,0,0,False,CBP_Blood_Pressure,,,140.0,94.0,34.7,,,,1,1,0.536959322760909,Medium,Send reminder and monitor appointment status
+70,Male,0,Outpatient Pediatrics,English,0,-12,2,1,0,False,TRC_Medication_Reconciliation,,,,,31.8,,,,0,0,0.00881606584419617,Low,Low priority; routine follow-up
+25,Female,1,Outpatient Pediatrics,Spanish,0,43,0,0,0,True,TRC_Medication_Reconciliation,,,,,37.3,,,,0,0,0.002910144253988401,Low,Low priority; routine follow-up
+25,Female,0,Outpatient Ophthalmology,English,0,79,5,0,0,False,TRC_Medication_Reconciliation,,,,,30.0,,,,0,0,0.0018283750366732217,Low,Low priority; routine follow-up
+75,Male,0,Outpatient Ophthalmology,Other,0,113,3,0,0,False,CBP_Blood_Pressure,,,141.0,73.0,23.4,,,,1,0,0.7385874591919396,Medium,Send reminder and monitor appointment status
+31,Female,1,1419 Myrtle Medicine,Spanish,0,-16,0,0,0,True,CBP_Blood_Pressure,,,136.0,78.0,23.7,,,,0,0,0.012381223885993749,Low,Low priority; routine follow-up
+31,Male,1,Outpatient ID,Spanish,0,69,1,0,0,True,GSD_A1c,7.3,Controlled (<8.0),,,34.3,,,,0,0,0.003900954465769212,Low,Low priority; routine follow-up
+66,Male,0,1419 Myrtle Medicine,English,1,55,1,1,0,False,CBP_Blood_Pressure,,,167.0,80.0,29.4,,,,1,0,0.5965127312895924,Medium,Send reminder and monitor appointment status
+53,Male,1,Outpatient ID,English,1,-20,0,0,0,True,CBP_Blood_Pressure,,,163.0,65.0,31.6,,,,1,0,0.5633990616641849,Medium,Send reminder and monitor appointment status
+54,Male,0,Outpatient Ophthalmology,English,0,105,2,0,0,False,CBP_Blood_Pressure,,,110.0,106.0,23.5,,,,1,0,0.7574652223415084,High,Call patient to schedule appointment
+73,Male,1,Outpatient ID,Spanish,0,114,1,0,0,True,CBP_Blood_Pressure,,,175.0,94.0,36.3,,,,1,1,0.865503406273613,High,Call patient to schedule appointment
+54,Male,1,OB Clinic,Spanish,0,99,1,0,0,True,GSD_A1c,6.0,Controlled (<8.0),,,35.7,,,,0,0,0.002346846813400987,Low,Low priority; routine follow-up
+72,Female,0,Outpatient Medical,Spanish,0,60,0,0,1,False,CBP_Blood_Pressure,,,119.0,77.0,19.0,,,,0,0,0.007896461333566591,Low,Low priority; routine follow-up
+62,Female,0,Outpatient Pediatrics,English,1,-20,1,1,1,False,CBP_Blood_Pressure,,,164.0,70.0,36.4,,,,1,1,0.9061976736111246,High,Verify care gap can be addressed during upcoming visit
+56,Male,0,OB Clinic,Spanish,1,30,1,0,0,False,CBP_Blood_Pressure,,,169.0,67.0,27.0,,,,1,0,0.5477828264543632,Medium,Send reminder and monitor appointment status
+47,Male,0,1419 Myrtle Medicine,English,0,37,0,0,0,False,TRC_Medication_Reconciliation,,,,,28.8,,,,0,0,0.0012666924078777553,Low,Low priority; routine follow-up
+71,Female,0,Outpatient Medical,English,0,25,2,0,0,False,PPC_Postpartum_Care,,,,,34.9,,,,0,0,0.002201903455796481,Low,Low priority; routine follow-up
+21,Female,0,Outpatient ID,English,1,43,0,1,0,False,PPC_Postpartum_Care,,,,,32.7,,,,0,0,0.0005531324077870253,Low,Low priority; routine follow-up
+21,Male,0,Outpatient Pediatrics,Spanish,1,16,0,1,0,False,CBP_Blood_Pressure,,,177.0,69.0,29.9,,,,1,0,0.797509591569722,High,Prioritize for care management review
+52,Female,1,1419 Myrtle Medicine,Spanish,1,82,0,0,0,True,PPC_Postpartum_Care,,,,,35.9,,,,0,0,0.0002646321284828823,Low,Low priority; routine follow-up
+27,Female,0,Outpatient Medical,English,1,-7,0,0,0,False,TRC_Medication_Reconciliation,,,,,21.6,,,,0,0,0.00027371205564855983,Low,Low priority; routine follow-up
+72,Female,1,1419 Myrtle Medicine,Spanish,0,81,3,0,0,True,EED_Eye_Exam,,,,,29.0,,,0.0,1,1,0.936167731090578,High,Call patient to schedule appointment
+65,Male,0,OB Clinic,English,1,81,0,1,0,False,CBP_Blood_Pressure,,,107.0,88.0,37.0,,,,0,0,0.000443209900778275,Low,Low priority; routine follow-up
+78,Male,1,OB Clinic,Spanish,1,-22,1,0,0,False,CBP_Blood_Pressure,,,137.0,87.0,37.9,,,,0,0,0.0020194423961023404,Low,Low priority; routine follow-up
+38,Female,1,Outpatient Ophthalmology,English,1,-28,0,0,0,True,GSD_A1c,7.0,Controlled (<8.0),,,20.7,,,,0,0,0.0005804810030424858,Low,Low priority; routine follow-up
+66,Male,0,OB Clinic,English,1,40,1,0,0,False,CBP_Blood_Pressure,,,116.0,104.0,23.3,,,,1,0,0.45990872221144186,Low,Low priority; routine follow-up
+69,Female,1,Outpatient Medical,Spanish,0,28,3,0,0,True,KED_Kidney_Health,,,,,38.2,1.0,1.0,,0,0,0.01751747612670694,Low,Low priority; routine follow-up
+54,Male,0,OB Clinic,English,0,-27,2,1,0,False,CBP_Blood_Pressure,,,139.0,83.0,28.0,,,,0,0,0.02103245258156926,Low,Low priority; routine follow-up
+47,Female,1,Outpatient Ophthalmology,English,0,-30,1,1,0,True,EED_Eye_Exam,,,,,30.1,,,1.0,0,0,0.004501114362643314,Low,Low priority; routine follow-up
+76,Female,0,Outpatient Pediatrics,English,1,29,0,0,0,False,CBP_Blood_Pressure,,,123.0,65.0,38.3,,,,0,0,0.00030324238167689447,Low,Low priority; routine follow-up
+25,Male,0,Outpatient Pediatrics,Spanish,0,96,2,1,0,False,CBP_Blood_Pressure,,,123.0,93.0,33.4,,,,1,1,0.9519706142189578,High,Call patient to schedule appointment
+18,Male,0,Outpatient Pediatrics,Spanish,0,82,1,0,0,False,TRC_Medication_Reconciliation,,,,,32.8,,,,0,0,0.0019650944620087456,Low,Low priority; routine follow-up
+29,Male,0,Outpatient Ophthalmology,Other,0,116,1,0,0,False,CBP_Blood_Pressure,,,142.0,81.0,34.9,,,,1,0,0.690864230395969,Medium,Send reminder and monitor appointment status
+18,Female,1,1419 Myrtle Medicine,English,1,86,0,0,0,True,CBP_Blood_Pressure,,,131.0,79.0,35.3,,,,0,0,0.000237355885221486,Low,Low priority; routine follow-up
+67,Female,0,Outpatient Ophthalmology,English,1,-20,2,1,0,False,CBP_Blood_Pressure,,,140.0,104.0,35.3,,,,1,1,0.8410804846833803,High,Verify care gap can be addressed during upcoming visit
+22,Male,1,Outpatient Pediatrics,Spanish,1,38,5,1,1,True,CBP_Blood_Pressure,,,128.0,89.0,28.0,,,,0,0,0.021624847925902843,Low,Low priority; routine follow-up
+33,Female,0,1419 Myrtle Medicine,English,1,77,0,0,0,False,CBP_Blood_Pressure,,,145.0,68.0,18.8,,,,1,0,0.23708578970821118,Low,Low priority; routine follow-up
+76,Female,1,Outpatient Pediatrics,English,0,19,3,1,0,False,CBP_Blood_Pressure,,,142.0,79.0,43.0,,,,1,1,0.9647868281840062,High,Call patient to schedule appointment
+23,Male,0,OB Clinic,Spanish,0,56,0,0,0,False,CBP_Blood_Pressure,,,130.0,85.0,32.3,,,,0,0,0.00416218346358873,Low,Low priority; routine follow-up
+39,Female,1,Outpatient ID,English,1,101,0,1,0,True,KED_Kidney_Health,,,,,42.7,0.0,1.0,,1,0,0.6366735306007991,Medium,Send reminder and monitor appointment status
+64,Male,0,Outpatient ID,English,1,63,0,0,0,False,TRC_Medication_Reconciliation,,,,,21.0,,,,0,0,0.00013090492024692556,Low,Low priority; routine follow-up
+40,Female,0,Outpatient Pediatrics,English,0,77,0,0,0,False,TRC_Medication_Reconciliation,,,,,37.0,,,,0,0,0.0007979121238093767,Low,Low priority; routine follow-up
+40,Female,1,Outpatient Ophthalmology,English,1,31,0,0,0,True,EED_Eye_Exam,,,,,42.1,,,0.0,1,1,0.4603251863814544,Low,Low priority; routine follow-up
+78,Male,0,1419 Myrtle Medicine,Other,1,9,2,0,0,False,CBP_Blood_Pressure,,,116.0,65.0,23.4,,,,0,0,0.0007897561370412507,Low,Low priority; routine follow-up
+76,Female,0,OB Clinic,Spanish,0,106,0,1,0,False,TRC_Medication_Reconciliation,,,,,27.0,,,,0,0,0.001945873787381294,Low,Low priority; routine follow-up
+78,Female,1,Outpatient ID,Spanish,0,13,0,0,0,False,CBP_Blood_Pressure,,,131.0,93.0,23.9,,,,1,1,0.9417223369275376,High,Call patient to schedule appointment
+73,Male,1,Outpatient Medical,English,0,-17,3,1,0,True,KED_Kidney_Health,,,,,25.1,0.0,1.0,,1,1,0.9880397163258153,High,Call patient to schedule appointment
+63,Male,1,Outpatient ID,Spanish,0,114,0,0,0,True,EED_Eye_Exam,,,,,27.6,,,1.0,0,0,0.0006095777421482902,Low,Low priority; routine follow-up
+67,Male,0,Outpatient Pediatrics,Spanish,1,88,2,1,0,False,PPC_Postpartum_Care,,,,,29.7,,,,0,0,0.0008202739983367417,Low,Low priority; routine follow-up
+66,Male,0,1419 Myrtle Medicine,English,1,76,0,1,0,False,TRC_Medication_Reconciliation,,,,,32.9,,,,0,0,0.00023874418756330708,Low,Low priority; routine follow-up
+47,Female,0,Outpatient Ophthalmology,Spanish,1,97,3,0,0,False,CBP_Blood_Pressure,,,106.0,109.0,29.2,,,,1,0,0.5524451612303459,Medium,Send reminder and monitor appointment status
+71,Female,1,Outpatient Pediatrics,Spanish,0,66,3,0,0,True,CBP_Blood_Pressure,,,134.0,77.0,33.3,,,,0,0,0.007626594812008815,Low,Low priority; routine follow-up
+29,Female,1,1419 Myrtle Medicine,Spanish,1,114,1,0,0,True,GSD_A1c,6.8,Controlled (<8.0),,,24.3,,,,0,0,0.00029872822483768325,Low,Low priority; routine follow-up
+48,Female,0,Outpatient Ophthalmology,Spanish,1,103,2,1,0,False,CBP_Blood_Pressure,,,162.0,105.0,29.5,,,,1,1,0.7065180064402303,Medium,Send reminder and monitor appointment status
+27,Male,1,Outpatient Medical,Spanish,0,-30,1,0,0,True,EED_Eye_Exam,,,,,40.0,,,0.0,1,1,0.9738554117556079,High,Call patient to schedule appointment
+25,Male,0,Outpatient ID,English,0,40,1,0,0,False,CBP_Blood_Pressure,,,170.0,99.0,22.1,,,,1,1,0.9027281703307695,High,Call patient to schedule appointment
+26,Female,1,Outpatient Medical,English,0,-16,2,0,0,True,CBP_Blood_Pressure,,,171.0,80.0,29.3,,,,1,1,0.9374996297431588,High,Call patient to schedule appointment
+57,Male,1,OB Clinic,English,0,53,0,0,0,True,CBP_Blood_Pressure,,,130.0,66.0,36.3,,,,0,0,0.0016539398731535476,Low,Low priority; routine follow-up
+77,Male,0,OB Clinic,English,1,-29,1,0,0,False,CBP_Blood_Pressure,,,150.0,96.0,20.8,,,,1,1,0.6631688214964231,Medium,Send reminder and monitor appointment status
+45,Male,1,Outpatient ID,English,0,10,1,0,0,True,GSD_A1c,8.3,Moderate Control (8.0-9.0),,,27.0,,,,0,0,0.0031457035593153698,Low,Low priority; routine follow-up
+41,Male,0,Outpatient ID,English,0,-23,2,0,0,False,CBP_Blood_Pressure,,,165.0,97.0,22.2,,,,1,1,0.9600934630540865,High,Call patient to schedule appointment
+31,Female,0,1419 Myrtle Medicine,Other,0,17,2,1,0,False,CBP_Blood_Pressure,,,139.0,109.0,22.3,,,,1,1,0.9803795602229183,High,Call patient to schedule appointment
+75,Female,0,1419 Myrtle Medicine,English,0,4,1,0,0,False,TRC_Medication_Reconciliation,,,,,29.0,,,,0,0,0.0022459466515090936,Low,Low priority; routine follow-up
+30,Male,0,Outpatient Ophthalmology,English,0,19,3,1,0,False,CBP_Blood_Pressure,,,161.0,81.0,33.4,,,,1,1,0.9580841358840491,High,Call patient to schedule appointment
+77,Female,0,OB Clinic,Spanish,0,-10,1,0,0,False,CBP_Blood_Pressure,,,174.0,76.0,26.5,,,,1,1,0.9428601443758065,High,Call patient to schedule appointment
+42,Female,1,OB Clinic,English,0,18,2,1,0,True,TRC_Medication_Reconciliation,,,,,34.2,,,,0,0,0.0059898014190117995,Low,Low priority; routine follow-up
+66,Female,1,Outpatient Ophthalmology,English,1,115,1,1,0,True,GSD_A1c,6.5,Controlled (<8.0),,,24.5,,,,0,0,0.00026502522575862827,Low,Low priority; routine follow-up
+53,Female,0,Outpatient Medical,Spanish,0,86,1,0,0,False,TRC_Medication_Reconciliation,,,,,22.5,,,,0,0,0.0013494838612449877,Low,Low priority; routine follow-up
+70,Male,1,1419 Myrtle Medicine,English,1,44,2,0,0,True,KED_Kidney_Health,,,,,31.0,0.0,0.0,,1,0,0.4317608365492891,Low,Low priority; routine follow-up
+22,Male,0,1419 Myrtle Medicine,Spanish,1,-26,3,1,0,False,PPC_Postpartum_Care,,,,,36.3,,,,0,0,0.00476940120339416,Low,Low priority; routine follow-up
+33,Male,0,Outpatient Ophthalmology,English,0,72,0,0,0,False,TRC_Medication_Reconciliation,,,,,24.8,,,,0,0,0.0006559503068832706,Low,Low priority; routine follow-up
+66,Female,1,Outpatient Pediatrics,English,0,51,1,0,0,True,GSD_A1c,7.4,Controlled (<8.0),,,26.1,,,,0,0,0.0022058105986331685,Low,Low priority; routine follow-up
+51,Male,0,1419 Myrtle Medicine,English,0,18,0,0,0,False,PPC_Postpartum_Care,,,,,35.0,,,,0,0,0.0019719285180822997,Low,Low priority; routine follow-up
+18,Male,0,Outpatient Ophthalmology,English,0,43,1,0,0,False,CBP_Blood_Pressure,,,122.0,73.0,25.6,,,,0,0,0.0022945531862174936,Low,Low priority; routine follow-up
+39,Male,0,OB Clinic,Spanish,0,-2,1,0,0,False,CBP_Blood_Pressure,,,152.0,107.0,30.9,,,,1,1,0.9632460838990791,High,Call patient to schedule appointment
+75,Male,0,1419 Myrtle Medicine,English,1,59,0,0,0,False,TRC_Medication_Reconciliation,,,,,32.7,,,,0,0,0.00012160380696779538,Low,Low priority; routine follow-up
+20,Female,0,Outpatient Pediatrics,English,0,36,1,0,0,False,CBP_Blood_Pressure,,,166.0,90.0,34.0,,,,1,1,0.8889433199422017,High,Call patient to schedule appointment
+69,Female,0,Outpatient Pediatrics,English,0,53,0,1,0,False,CBP_Blood_Pressure,,,126.0,104.0,26.4,,,,1,1,0.9249861090144027,High,Call patient to schedule appointment
+79,Male,0,1419 Myrtle Medicine,English,0,106,2,0,1,False,PPC_Postpartum_Care,,,,,20.4,,,,0,0,0.002565861565898317,Low,Low priority; routine follow-up
+76,Female,1,Outpatient Medical,Spanish,1,-28,0,0,0,False,CBP_Blood_Pressure,,,123.0,92.0,30.6,,,,1,1,0.7364112388193815,Medium,Send reminder and monitor appointment status
+20,Male,0,Outpatient ID,English,0,36,1,0,0,False,CBP_Blood_Pressure,,,111.0,70.0,18.0,,,,0,0,0.0032123804300587307,Low,Low priority; routine follow-up
+45,Male,0,Outpatient Pediatrics,English,1,20,1,0,0,False,CBP_Blood_Pressure,,,145.0,97.0,28.7,,,,1,0,0.5776071842319499,Medium,Send reminder and monitor appointment status
+57,Female,0,Outpatient ID,English,0,66,0,0,0,False,TRC_Medication_Reconciliation,,,,,28.5,,,,0,0,0.0009147407871689541,Low,Low priority; routine follow-up
+57,Female,0,Outpatient Medical,English,0,18,1,0,0,False,TRC_Medication_Reconciliation,,,,,21.2,,,,0,0,0.0016476764588817569,Low,Low priority; routine follow-up
+54,Female,1,Outpatient Medical,English,0,-6,0,0,0,True,GSD_A1c,8.5,Moderate Control (8.0-9.0),,,26.4,,,,0,0,0.002254536376080719,Low,Low priority; routine follow-up
+36,Female,1,OB Clinic,Spanish,0,21,1,0,0,True,GSD_A1c,8.5,Moderate Control (8.0-9.0),,,22.2,,,,0,0,0.00427266495987072,Low,Low priority; routine follow-up
+38,Male,0,Outpatient Ophthalmology,Spanish,0,33,0,1,0,False,CBP_Blood_Pressure,,,178.0,96.0,26.5,,,,1,1,0.9628895128010425,High,Call patient to schedule appointment
+80,Male,1,1419 Myrtle Medicine,Other,0,109,2,0,0,False,CBP_Blood_Pressure,,,179.0,106.0,29.0,,,,1,1,0.8679540391004213,High,Call patient to schedule appointment
+42,Female,0,Outpatient ID,Other,0,89,2,0,0,False,CBP_Blood_Pressure,,,108.0,68.0,20.1,,,,0,0,0.0024646454240748648,Low,Low priority; routine follow-up
+57,Female,1,1419 Myrtle Medicine,Spanish,1,-21,3,0,0,True,GSD_A1c,7.4,Controlled (<8.0),,,27.0,,,,0,0,0.002316583558218796,Low,Low priority; routine follow-up
+61,Male,0,OB Clinic,Other,0,31,2,0,0,False,CBP_Blood_Pressure,,,117.0,87.0,30.5,,,,0,0,0.0056205545760813795,Low,Low priority; routine follow-up
+38,Male,0,Outpatient Ophthalmology,English,1,39,0,1,0,False,TRC_Medication_Reconciliation,,,,,33.2,,,,0,0,0.0003264082493771993,Low,Low priority; routine follow-up
+25,Female,0,Outpatient Ophthalmology,Other,0,46,2,0,0,False,CBP_Blood_Pressure,,,164.0,69.0,25.0,,,,1,1,0.8600265386580652,High,Call patient to schedule appointment
+80,Female,0,Outpatient Pediatrics,English,0,75,2,1,0,False,CBP_Blood_Pressure,,,170.0,100.0,23.5,,,,1,1,0.9372864865523828,High,Call patient to schedule appointment
+61,Male,0,Outpatient Pediatrics,English,1,70,4,1,0,False,PPC_Postpartum_Care,,,,,28.8,,,,0,0,0.000833576428550983,Low,Low priority; routine follow-up
+55,Female,1,1419 Myrtle Medicine,Spanish,0,22,1,0,0,True,KED_Kidney_Health,,,,,32.3,1.0,1.0,,0,0,0.015304827850964963,Low,Low priority; routine follow-up
+57,Female,0,Outpatient Pediatrics,English,0,11,2,0,0,False,CBP_Blood_Pressure,,,163.0,71.0,36.1,,,,1,1,0.8996046276962181,High,Call patient to schedule appointment
+60,Female,1,OB Clinic,Spanish,0,0,4,1,0,True,KED_Kidney_Health,,,,,30.1,0.0,1.0,,1,1,0.9942753610322731,High,Call patient to schedule appointment
+74,Male,0,Outpatient Pediatrics,Spanish,0,95,1,0,1,False,CBP_Blood_Pressure,,,172.0,91.0,30.1,,,,1,1,0.9486983414589194,High,Call patient to schedule appointment
+33,Male,0,OB Clinic,English,1,-1,0,1,0,False,CBP_Blood_Pressure,,,149.0,73.0,32.5,,,,1,1,0.6608513410130938,Medium,Send reminder and monitor appointment status
+73,Female,0,Outpatient Medical,Spanish,0,53,1,0,0,False,TRC_Medication_Reconciliation,,,,,34.0,,,,0,0,0.0019426679778949537,Low,Low priority; routine follow-up
+24,Female,1,OB Clinic,English,1,37,0,0,0,True,PPC_Postpartum_Care,,,,,34.7,,,,0,0,0.0002257540965715071,Low,Low priority; routine follow-up
+22,Female,0,OB Clinic,English,1,-26,1,1,0,False,TRC_Medication_Reconciliation,,,,,23.1,,,,0,0,0.001104197089142727,Low,Low priority; routine follow-up
+73,Male,1,OB Clinic,Spanish,0,72,0,0,0,True,CBP_Blood_Pressure,,,160.0,65.0,37.3,,,,1,1,0.8050709198548399,High,Call patient to schedule appointment
+29,Male,0,Outpatient ID,Spanish,1,56,4,0,0,False,TRC_Medication_Reconciliation,,,,,36.3,,,,0,0,0.000738061394810969,Low,Low priority; routine follow-up
+62,Female,0,OB Clinic,Spanish,0,100,1,0,0,False,TRC_Medication_Reconciliation,,,,,31.8,,,,0,0,0.0011322667520740073,Low,Low priority; routine follow-up
+68,Female,0,Outpatient Pediatrics,Other,0,21,1,0,0,False,PPC_Postpartum_Care,,,,,41.4,,,,0,0,0.003227493874486196,Low,Low priority; routine follow-up
+52,Male,1,1419 Myrtle Medicine,Spanish,0,48,2,0,0,True,CBP_Blood_Pressure,,,111.0,78.0,30.7,,,,0,0,0.007362499782609623,Low,Low priority; routine follow-up
+50,Female,0,Outpatient Medical,English,1,48,0,0,0,False,CBP_Blood_Pressure,,,135.0,99.0,24.8,,,,1,0,0.3722971755613809,Low,Low priority; routine follow-up
+44,Male,0,Outpatient Pediatrics,Spanish,0,7,0,1,0,False,PPC_Postpartum_Care,,,,,23.1,,,,0,0,0.011619273293853217,Low,Low priority; routine follow-up
+22,Male,0,OB Clinic,English,0,58,0,0,0,False,CBP_Blood_Pressure,,,160.0,88.0,38.3,,,,1,1,0.7884700187100213,High,Call patient to schedule appointment
+25,Female,0,1419 Myrtle Medicine,English,0,54,2,1,0,False,CBP_Blood_Pressure,,,154.0,97.0,35.1,,,,1,0,0.9504783487272517,High,Call patient to schedule appointment
+36,Male,0,Outpatient Medical,English,1,-23,0,0,0,False,CBP_Blood_Pressure,,,172.0,72.0,33.0,,,,1,0,0.5205367675648451,Medium,Send reminder and monitor appointment status
+34,Female,0,Outpatient Ophthalmology,English,1,15,0,0,0,False,PPC_Postpartum_Care,,,,,35.3,,,,0,0,0.00023144743120514328,Low,Low priority; routine follow-up
+79,Male,0,1419 Myrtle Medicine,Spanish,1,62,0,0,0,False,TRC_Medication_Reconciliation,,,,,29.5,,,,0,0,0.000228933512359658,Low,Low priority; routine follow-up
+22,Male,1,1419 Myrtle Medicine,English,0,-15,1,0,0,True,EED_Eye_Exam,,,,,21.8,,,1.0,0,0,0.002140312213775761,Low,Low priority; routine follow-up
+45,Male,0,1419 Myrtle Medicine,Spanish,0,2,0,0,0,False,PPC_Postpartum_Care,,,,,28.6,,,,0,0,0.004888131037435469,Low,Low priority; routine follow-up
+80,Male,0,Outpatient ID,English,0,-11,2,1,0,False,PPC_Postpartum_Care,,,,,35.1,,,,0,0,0.010723088003121696,Low,Low priority; routine follow-up
+66,Male,1,OB Clinic,English,1,14,1,0,0,True,EED_Eye_Exam,,,,,22.3,,,0.0,1,1,0.5853902084823441,Medium,Send reminder and monitor appointment status
