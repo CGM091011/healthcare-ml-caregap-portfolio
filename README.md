@@ -19,9 +19,18 @@ Skills demonstrated:
 - HEDIS care gap logic
 - Outreach prioritization
 
-### 2. Poor A1c Control Prediction
+### ### 2. Patient No-Show Prediction
 
-Coming soon.
+Built a machine learning model to predict whether a patient will miss a scheduled medical appointment and should be prioritized for outreach.
+
+Skills demonstrated:
+
+- Feature engineering (SDOH, behavioral patterns)
+- Classification modeling
+- Model evaluation (ROC-AUC, Recall, F1-score)
+- Healthcare quality analytics
+- Patient risk stratification
+- Appointment adherence analysis
 
 ### 3. Streamlit Outreach Priority App
 
