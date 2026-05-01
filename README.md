@@ -19,7 +19,7 @@ Skills demonstrated:
 - HEDIS care gap logic
 - Outreach prioritization
 
-### ### 2. Patient No-Show Prediction
+### 2. Patient No-Show Prediction
 
 Built a machine learning model to predict whether a patient will miss a scheduled medical appointment and should be prioritized for outreach.
 
