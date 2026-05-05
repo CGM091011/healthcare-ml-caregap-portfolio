@@ -32,9 +32,19 @@ Skills demonstrated:
 - Patient risk stratification
 - Appointment adherence analysis
 
-### 3. Streamlit Outreach Priority App
+### 3. Healthcare Data Engineering Pipeline
 
-Coming soon.
+Built a Python-based ETL pipeline to extract, transform, validate, and load healthcare appointment data into a structured SQLite database for downstream analytics.
+
+Skills demonstrated:
+
+- Data extraction and ingestion (CSV → pipeline)
+- Data cleaning and transformation (Pandas)
+- Data validation and quality checks
+- Database loading (SQLite)
+- Logging and pipeline monitoring
+- Reproducible data workflow design
+
 
 ## Background
 
