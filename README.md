@@ -1,6 +1,6 @@
-# Healthcare Machine Learning Care Gap Portfolio
+# Healthcare Analytics Portfolio: From Data Pipelines to Predictive Modeling
 
-This portfolio demonstrates machine learning projects focused on healthcare quality analytics, HEDIS care gaps, patient outreach prioritization, and value-based care improvement.
+This portfolio is dedicated to solving operational and clinical challenges in healthcare through advanced analytics. By combining scalable data engineering architectures with machine learning, these projects illustrate how to ingest complex government and clinical datasets, ensure data quality, and build predictive models that prioritize patient outreach (HEDIS), reduce wasted resources, and improve health outcomes.
 
 ## Projects
 
@@ -46,10 +46,29 @@ Skills demonstrated:
 - Reproducible data workflow design
 
 
+### 4. Medicare Part D Big Data Pipeline
+
+Built an end-to-end PySpark data pipeline to ingest, clean, and aggregate large-scale government healthcare data using the Medallion Architecture.
+
+Skills demonstrated:
+
+    Distributed data processing (PySpark)
+
+    Medallion Architecture design (Bronze, Silver, Gold)
+
+    Large-scale data cleaning and aggregation
+
+    Infrastructure and memory optimization
+
+    Columnar data storage (Parquet)
+
 ## Background
 
 This portfolio is designed around healthcare analytics workflows such as A1c monitoring, blood pressure control, kidney health evaluation, diabetic eye exams, appointment scheduling, care gap closure, and population health outreach.
 
-## Tools
+## Tools & Technologies
 
-Python, pandas, NumPy, scikit-learn, matplotlib, Streamlit, SQL logic, healthcare analytics.
+* **Languages & Core Libraries:** Python, pandas, NumPy, SQL (SQLite)
+* **Big Data & Data Engineering:** Apache Spark (PySpark), Parquet, Medallion Architecture
+* **Machine Learning & Analytics:** scikit-learn, matplotlib, Streamlit, Healthcare Analytics
+* **Environment & Infrastructure:** JupyterHub, Java (JDK 11)
