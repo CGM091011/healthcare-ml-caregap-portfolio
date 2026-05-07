@@ -1,4 +1,4 @@
-3. Medicare Part D Big Data Pipeline (ETVL)
+### 3. Medicare Part D Big Data Pipeline (ETVL)
 
 Built an end-to-end PySpark data pipeline to extract, transform, validate, and load large-scale government healthcare data to analyze prescription drug spending.
 
@@ -14,20 +14,20 @@ Skills demonstrated:
 
     Big Data File Optimization (Parquet format)
 
-Project Overview
+### Project Overview
 This project processes a subset of the official CMS Medicare Part D Prescribers dataset. It takes a heavy, 84-column raw CSV file and transforms it through a multi-stage pipeline into a streamlined, highly compressed analytical report. By aggregating the data geographically, the pipeline quickly identifies which U.S. cities account for the highest total Medicare drug costs.
 
-Business Problem
+### Business Problem
 Healthcare organizations, insurers, and analysts need to track where Medicare dollars are being spent. However, raw government datasets are often too massive, noisy, and memory-intensive for standard tools like Excel or Pandas to handle efficiently. This pipeline automates the ingestion and cleaning of that data, turning a "Big Data" problem into instant, actionable geographic insights without crashing local environments.
 
-Core Output (The "Gold" Layer)
+### Core Output (The "Gold" Layer)
 Aggregated Geographic Spend Report:
 
     total_city_spend: Sum of all prescription drug costs for that city.
 
     doctor_count: The number of unique prescribing providers in that city.
 
-Data Source & Features Extracted
+### Data Source & Features Extracted
 
     Source: Centers for Medicare & Medicaid Services (CMS) Part D Prescribers Dataset.
 
@@ -43,7 +43,7 @@ Data Source & Features Extracted
 
         Tot_Drug_Cst (Total Drug Cost)
 
-Architecture & Tools
+### Architecture & Tools
 
     Framework: PySpark
 
@@ -53,7 +53,7 @@ Architecture & Tools
 
     Environment: JupyterHub (with manual Java 11 environment variable configuration)
 
-Validation Metrics (ETVL Pipeline)
+### Validation Metrics (ETVL Pipeline)
 
     Pre-cleaning raw row & column ingestion audits.
 
