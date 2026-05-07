@@ -52,15 +52,11 @@ Built an end-to-end PySpark data pipeline to ingest, clean, and aggregate large-
 
 Skills demonstrated:
 
-    Distributed data processing (PySpark)
-
-    Medallion Architecture design (Bronze, Silver, Gold)
-
-    Large-scale data cleaning and aggregation
-
-    Infrastructure and memory optimization
-
-    Columnar data storage (Parquet)
+ - Distributed data processing (PySpark)
+ - Medallion Architecture design (Bronze, Silver, Gold)
+ - Large-scale data cleaning and aggregation
+ - Infrastructure and memory optimization
+ - Columnar data storage (Parquet)
 
 ## Background
 
